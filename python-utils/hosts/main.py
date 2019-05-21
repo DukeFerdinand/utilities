@@ -19,7 +19,7 @@ class NewHost:
         self.ip = ip
 
     def host_string(self):
-        # Tab character so /etc/hosts keeps the same
+        # Tab character to respect /etc/hosts spacing
         return f"{self.ip}\t{self.hostname}"
 
 
